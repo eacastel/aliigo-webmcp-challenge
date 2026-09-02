@@ -6,7 +6,7 @@ https://aliigo-webmcp-challenge.vercel.app
 
 ## CURRENT COMMIT
 
-`31799f3` — initial complete challenge build. A later status-only commit may follow.
+`8748b43` — final tested application, assets, and E2E revision. A status-only follow-up commit records this hash.
 
 ## WORKING
 
@@ -20,10 +20,11 @@ https://aliigo-webmcp-challenge.vercel.app
 ## TESTED
 
 - `pnpm test`: 10 passing.
-- `pnpm test:e2e`: core desktop/mobile flows passing; screenshot capture checks passing.
+- `pnpm test:e2e`: 10 passing across desktop/mobile, 2 intentionally skipped by project targeting.
 - `pnpm lint`: passing.
 - `pnpm build`: passing.
-- Vercel production response: HTTP 200 with origin isolation and `tools=(self)` headers.
+- Vercel production: READY, HTTP 200, origin isolation, and `tools=(self)` headers.
+- GitHub: public, Apache-2.0 detected.
 
 ## BLOCKED
 
@@ -32,7 +33,6 @@ https://aliigo-webmcp-challenge.vercel.app
 
 ## NEXT
 
-1. Publish the disclosure-reviewed GitHub repository.
-2. Redeploy the final documentation/test revision.
-3. Emilio records real WebMCP evidence and the under-three-minute video.
-4. Emilio completes and submits Devpost before 3 September 2026 at 22:00 Europe/Madrid.
+1. Emilio records real WebMCP evidence for Luma and Northstar.
+2. Emilio records and uploads the under-three-minute public YouTube demo.
+3. Emilio completes eligibility/legal fields and submits Devpost before 3 September 2026 at 22:00 Europe/Madrid.
