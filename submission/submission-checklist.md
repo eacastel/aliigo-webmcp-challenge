@@ -18,6 +18,7 @@ Deadline: **3 September 2026, 22:00 Europe/Madrid** (1:00 p.m. PDT).
 - [x] Desktop and mobile Playwright journeys passing.
 - [x] Production build and lint passing.
 - [x] Five original app screenshots.
+- [x] Real WebMCP preparation invocation passed for both businesses in Chrome 151.0.7922.137.
 - [x] Devpost description drafted.
 - [x] 2:30 demo script and shot list drafted.
 - [x] Future Aliigo integration boundary documented.
@@ -25,8 +26,8 @@ Deadline: **3 September 2026, 22:00 Europe/Madrid** (1:00 p.m. PDT).
 ## Emilio must complete
 
 - [ ] Join/register for the challenge on Devpost and personally verify eligibility.
-- [ ] Run real WebMCP verification in ChatGPT's in-app browser or Chrome 149+ with the testing flag.
-- [ ] Record exact browser/version and capture real invocation evidence for both businesses.
+- [x] Real WebMCP verification completed in installed Chrome 151.0.7922.137.
+- [ ] Capture visible inspector or ChatGPT invocation evidence for both businesses in the video.
 - [ ] Record and edit the under-three-minute narrated product demo.
 - [ ] Upload the video to YouTube with **Public** visibility and verify playback/audio.
 - [ ] Add the YouTube URL to the Devpost submission.

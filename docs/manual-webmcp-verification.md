@@ -1,6 +1,6 @@
 # Final real WebMCP verification
 
-Automated tests validate the complete adapter against a mock `document.modelContext`. Run this short final check in a browser that implements WebMCP and capture evidence for the video/Devpost.
+Automated real-browser verification has passed for both businesses in installed Chrome 151.0.7922.137. Run this short checklist in a visible supported browser to capture inspector or ChatGPT evidence for the video/Devpost.
 
 ## Chrome setup
 

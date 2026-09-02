@@ -130,7 +130,7 @@ WebMCP is experimental. Chrome documentation currently identifies Chrome 149+ an
 6. Use the Model Context Tool Inspector or ChatGPT's supported in-app browser to invoke at least one tool per business.
 7. Verify `prepare_booking` and `prepare_quote_request` change the visible shared-action state but do not complete the consequential action.
 
-Exact prompts and expected evidence are in [docs/manual-webmcp-verification.md](docs/manual-webmcp-verification.md).
+Automated installed-browser evidence is in [docs/real-webmcp-evidence.md](docs/real-webmcp-evidence.md); final video prompts are in [docs/manual-webmcp-verification.md](docs/manual-webmcp-verification.md).
 
 ![WebMCP diagnostics](public/screenshots/webmcp-diagnostics.png)
 
@@ -162,7 +162,7 @@ The test suite covers business definition validation, tool naming and schemas, b
 - Real agent invocation requires ChatGPT's supported in-app browser, Chrome's testing flag, or an origin trial.
 - Browser clients must visit the page before discovering its tools.
 - Availability and quote estimates are deterministic fictional demo data.
-- The local automated environment validates the adapter with a mock `document.modelContext`; final real-browser evidence must be captured manually in a supported browser.
+- Real registration, invocation, business reconciliation, and visible prepared state were verified in installed Chrome 151.0.7922.137; a visible inspector or ChatGPT clip still needs to be recorded for the submission video.
 - This is a challenge prototype, not a production booking or ordering system.
 
 ## Future direction

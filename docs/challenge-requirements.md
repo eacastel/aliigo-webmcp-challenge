@@ -77,6 +77,6 @@ The four criteria are equally weighted:
 - [x] Desktop/mobile and diagnostics coverage.
 - [x] Live Vercel deployment.
 - [x] Original fictional data and original CSS visuals.
-- [ ] Final real WebMCP invocation captured in ChatGPT or flagged Chrome.
+- [x] Real WebMCP invocation verified for both businesses in Chrome 151.0.7922.137.
 - [ ] Public YouTube video uploaded and linked.
 - [ ] Devpost submission legally attested and submitted by Emilio.
