@@ -4,7 +4,7 @@ test.use({ channel: "chrome", launchOptions: { args: ["--enable-features=WebMCP"
 
 test("real Chrome registers, invokes, and reconciles WebMCP tools", async ({ page, browser }) => {
   test.skip(process.env.REAL_WEBMCP !== "1", "Set REAL_WEBMCP=1 with Chrome 149+ installed.");
-  await page.goto("/");
+  await page.goto(process.env.REAL_WEBMCP_URL ?? "/");
   await expect(page.getByRole("heading", { name: /Make a business usable/ })).toBeVisible();
 
   const luma = await page.evaluate(async () => {

@@ -5,7 +5,7 @@ Verified on **2 September 2026** with:
 - Google Chrome **151.0.7922.137** (stable Linux binary);
 - real Blink WebMCP implementation enabled with `--enable-features=WebMCP`, the command-line equivalent used for automated flag testing;
 - Playwright driving the installed Chrome channel, not its bundled Chromium;
-- origin-isolated local Next.js app with `Permissions-Policy: tools=(self)`;
+- aliased production deployment `https://aliigo-webmcp-challenge.vercel.app` with origin isolation and `Permissions-Policy: tools=(self)`;
 - test: `tests/e2e/real-webmcp.spec.ts` with `REAL_WEBMCP=1`.
 
 ## Passed evidence
@@ -32,7 +32,8 @@ These compatibility details affect only the optional in-page inspection/executio
 ## Reproduce
 
 ```bash
-REAL_WEBMCP=1 pnpm exec playwright test \
+REAL_WEBMCP=1 REAL_WEBMCP_URL=https://aliigo-webmcp-challenge.vercel.app \
+  pnpm exec playwright test \
   tests/e2e/real-webmcp.spec.ts \
   --project desktop-chromium
 ```
