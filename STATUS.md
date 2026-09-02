@@ -6,7 +6,7 @@ https://aliigo-webmcp-challenge.vercel.app
 
 ## CURRENT COMMIT
 
-`8748b43` — final tested application, assets, and E2E revision. A status-only follow-up commit records this hash.
+`f656165` — final tested application with real Chrome 151 WebMCP evidence. A status-only follow-up records this hash.
 
 ## WORKING
 
