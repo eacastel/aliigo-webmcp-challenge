@@ -6,7 +6,7 @@ https://aliigo-webmcp-challenge.vercel.app
 
 ## CURRENT COMMIT
 
-Pending initial public-safe commit.
+`31799f3` — initial complete challenge build. A later status-only commit may follow.
 
 ## WORKING
 
@@ -20,7 +20,7 @@ Pending initial public-safe commit.
 ## TESTED
 
 - `pnpm test`: 10 passing.
-- `pnpm test:e2e`: 8 core desktop/mobile tests passing; screenshot capture tests also passing.
+- `pnpm test:e2e`: core desktop/mobile flows passing; screenshot capture checks passing.
 - `pnpm lint`: passing.
 - `pnpm build`: passing.
 - Vercel production response: HTTP 200 with origin isolation and `tools=(self)` headers.
@@ -32,7 +32,7 @@ Pending initial public-safe commit.
 
 ## NEXT
 
-1. Public-repository safety scan, initial commit, and GitHub publication.
-2. Redeploy final docs/test update.
-3. Emilio records real WebMCP evidence and under-three-minute video.
-4. Emilio completes and submits Devpost entry before 3 September 2026 at 22:00 Europe/Madrid.
+1. Publish the disclosure-reviewed GitHub repository.
+2. Redeploy the final documentation/test revision.
+3. Emilio records real WebMCP evidence and the under-three-minute video.
+4. Emilio completes and submits Devpost before 3 September 2026 at 22:00 Europe/Madrid.
