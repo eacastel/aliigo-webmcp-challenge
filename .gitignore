@@ -1,0 +1,35 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# tests and build output
+/coverage
+/test-results
+/playwright-report
+/.next/
+/out/
+/build
+
+# generated framework agent hints
+/AGENTS.md
+/CLAUDE.md
+
+# local configuration and secrets
+.env*
+.vercel
+*.pem
+
+# system and tool noise
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+next-env.d.ts
