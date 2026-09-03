@@ -7,7 +7,7 @@ import { BusinessSwitcher } from "./business-switcher";
 export function DiagnosticsClient() {
   const { business, tools, webmcp, activity, lastResult } = useActionLayer();
   return <main className="diagnostics-page shell">
-    <header className="site-header"><Link className="brand" href="/"><BrandMark /><span>ALIIGO <i>LABS</i></span></Link><Link href="/">← Back to demo</Link></header>
+    <header className="site-header"><Link className="brand" href="/"><BrandMark /><span className="product-name">Action Layer</span></Link><Link href="/">← Back to demo</Link></header>
     <div className="diagnostics-heading"><p className="kicker">Developer verification</p><h1>WebMCP diagnostics</h1><p>Verify progressive enhancement, the current capability set, and the last structured result.</p></div>
     <BusinessSwitcher />
     <section className="diagnostic-grid">
