@@ -3,8 +3,8 @@ import { useActionLayer } from "@/app/providers";
 import type { BusinessId } from "@/businesses/types";
 
 const options: Array<{ id: BusinessId; label: string; eyebrow: string }> = [
-  { id: "luma", label: "Wellness Studio", eyebrow: "Luma" },
-  { id: "northstar", label: "Print & Sign", eyebrow: "Northstar" },
+  { id: "luma", label: "Luma Wellness Studio", eyebrow: "01 · Wellness" },
+  { id: "northstar", label: "Northstar Print & Sign", eyebrow: "02 · Print & signage" },
 ];
 
 export function BusinessSwitcher() {

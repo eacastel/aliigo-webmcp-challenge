@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function BrandMark() {
-  return <span className="brand-mark" aria-hidden="true"><span /><span /><span /></span>;
+  return <Image className="brand-logo" src="/brand/aliigo-logo-green.svg" alt="Aliigo" width={112} height={48} priority />;
 }
